@@ -34,7 +34,6 @@ body {
 }
 #icon {
     position: relative;
-    left: %;
     top: 80px;
     transform: translate(-350%,-50%);
     height: 80%;   
