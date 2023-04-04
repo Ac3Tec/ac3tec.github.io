@@ -1,0 +1,154 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: url(/src/image/escheresque.png);
+    font: 20px Helvetica, sans-serif; 
+    color: #333;
+    margin: 0%;
+    display: grid;
+    min-height: 100%;
+}
+ul {
+    padding-left: 10%;
+    padding-right: 10%;
+    list-style-position: inside;
+}
+#main {
+    background-color: #f5f5f5;
+    min-height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 2%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    word-break: break-word;
+}
+#header {
+    background-color: #f5f5f5;
+    height: 165px;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+#logo {
+    position: relative;
+    left: 50%;
+    top: 80px;
+    transform: translate(-50%,-50%);
+    height: 80%;
+}
+#icon {
+    position: relative;
+    top: 80px;
+    transform: translate(-350%,-50%);
+    height: 80%;   
+}
+#navbar {
+    overflow: hidden;
+    background-color: #333333;
+    position: -webkit-sticky;
+	position: sticky;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-bottom: 3px solid #f48120;
+  }
+.sitemap {
+    display: inline-flex;
+    justify-content: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.sitemap:hover {
+    background-color: #f48120;
+}
+#home {
+    background-color: #f48120;
+}
+.fab {
+    display: relative;
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 110px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+}
+.fab:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-right: 8px;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+@media (max-width:1000px) {
+    a.fab {
+        display: none;
+    }
+    div#main {
+        margin-left: unset;
+        margin-right: unset;
+        width: 100%;
+    }
+    div#navbar {
+        display: flex;
+        justify-content: center;
+    }
+    #icon {
+        display: none;
+    }
+}
+h1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+h2 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.button {
+    background-color: #f48120; /* Green */
+    border: none;
+    color: #333333;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+.button1 {
+    margin-left: 10%;
+    border-radius: 4px;
+}
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
