@@ -9,17 +9,23 @@ body {
     display: grid;
     min-height: 100%;
 }
+ul {
+    padding-left: 10%;
+    padding-right: 10%;
+    list-style-position: inside;
+}
 #main {
     background-color: #f5f5f5;
     min-height: 100%;
     margin-left: 10%;
     margin-right: 10%;
-    word-break: break-word;
+    padding-bottom: 2%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    word-break: break-word;
 }
 #header {
     background-color: #f5f5f5;
-    height: 150px;
+    height: 165px;
     display: inline-block;
     left: 0;
     top: 0;
@@ -28,9 +34,15 @@ body {
 #logo {
     position: relative;
     left: 50%;
-    top: 75px;
+    top: 80px;
     transform: translate(-50%,-50%);
     height: 80%;
+}
+#icon {
+    position: relative;
+    top: 80px;
+    transform: translate(-350%,-50%);
+    height: 80%;   
 }
 #navbar {
     overflow: hidden;
@@ -42,7 +54,6 @@ body {
     top: 0;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-bottom: 3px solid #f48120;
-    z-index: 10;
   }
 .sitemap {
     display: inline-flex;
@@ -55,7 +66,7 @@ body {
 .sitemap:hover {
     background-color: #f48120;
 }
-#contact {
+#home {
     background-color: #f48120;
 }
 .fab {
@@ -69,7 +80,7 @@ body {
     float: right;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: 95px;
+    margin-top: 110px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 5px;
 }
@@ -83,8 +94,7 @@ body {
 .fa-facebook {
     background: #3B5998;
     color: white;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 8px;
 }
 .fa-youtube {
     background: #bb0000;
@@ -103,14 +113,42 @@ body {
         display: flex;
         justify-content: center;
     }
+    #icon {
+        display: none;
+    }
 }
 h1 {
-    text-align: center;
-    margin-top: 3%;
-    font-size: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+h2 {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 p {
-    margin-left: 5%;
-    font-size: 18px;  
+    padding-left: 10%;
+    padding-right: 10%;
 }
-
+.button {
+    background-color: #f48120; /* Green */
+    border: none;
+    color: #333333;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+.button1 {
+    margin-left: 10%;
+    border-radius: 4px;
+}
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
