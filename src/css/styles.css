@@ -11,6 +11,7 @@ body {
 }
 ul {
     padding-left: 10%;
+    padding-right: 10%;
     list-style-position: inside;
 }
 #main {
@@ -118,13 +119,16 @@ ul {
 }
 h1 {
     padding-left: 10%;
+    padding-right: 10%;
     padding-top: 3%;
 }
 h2 {
     padding-left: 10%;
+    padding-right: 10%;
 }
 p {
     padding-left: 10%;
+    padding-right: 10%;
 }
 .button {
     background-color: #f48120; /* Green */
