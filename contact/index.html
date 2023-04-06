@@ -48,20 +48,22 @@
             <a id="contact" class="sitemap" href="/contact">Contact</a>
         </div>
         <h1>Contact</h1>
-        <form id="contactform" action="https://api.web3forms.com/submit" method="POST">
+        <div class="contactform">
+            <form action="https://api.web3forms.com/submit" method="POST">
 
-            <input type="hidden" name="access_key" value="150d7c24-b0f5-44c8-b1ba-8a519efcb7bf">
+                <input type="hidden" name="access_key" value="150d7c24-b0f5-44c8-b1ba-8a519efcb7bf">
         
-            <input type="text" name="name" required>
-            <input type="email" name="email" required>
-            <textarea name="message" required></textarea>
-            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <input type="text" name="name" required>
+                <input type="email" name="email" required>
+                <textarea name="message" required></textarea>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
 
-            <div class="h-captcha" data-captcha="true"></div>
+                <div class="h-captcha" data-captcha="true"></div>
         
-            <button type="submit">Submit Form</button>
+                <button type="submit">Submit Form</button>
         
-        </form>
+            </form>
+        </div>
     </div>
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.34/darkreader.js"></script>

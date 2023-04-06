@@ -155,49 +155,18 @@ p {
 .button1:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.form-container {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  /* Style the form inputs and labels */
-  .form-group {
+.contactform {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
-  }
-  
-  .form-group label {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .form-group input[type="text"],
-  .form-group input[type="email"],
-  .form-group textarea {
-    padding: 0.5rem;
-    border-radius: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input {
+    padding: 10px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
-    font-size: 1rem;
-  }
-  
-  .form-group textarea {
-    resize: vertical;
-    min-height: 100px;
-  }
-  
-  /* Style the form submit button */
-  .form-submit {
-    background-color: #4CAF50;
-    color: white;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 0.25rem;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-  
-  .form-submit:hover {
-    background-color: #3e8e41;
-  }
+    border-radius: 5px;
+    width: 300px;
+    max-width: 100%;
+}
